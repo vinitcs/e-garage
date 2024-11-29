@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: Urbanist, system-ui, Avenir, Arial, Helvetica, sans-serif;
+  color-scheme: light dark; */
+}
+
+:root {
+  --primary-color: #006989;
+  --tint-color: #E88D67;
+  --grey-color: #758694;
+  --bg-color: #ffffff;
+  --dark-color: #242424;
+  --helper-color: #6482AD;
+  --logout-color: #B43F3F;
+  --htag1-color: #D4BDAC;
+  --footer-color: #e7e5e54a;
+  --modal-color: #F7EFE5;
+}
+
+html,body {
+  font-size: 70.5%;
+  scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* Toastify css start */
+
+.toastBody {
+  font-family: "Atlas Grotesk Web", Arial, Helvetica, sans-serif;
+  font-size: 0.875rem;
+}
+
+/* Toastify css end */
+
+h1 {
+  font-size: 1.4rem;
+  line-height: 1.1;
+  font-weight: bold;
+  color: var(--dark-color);
+}
+
+
+p,
+li,
+label,
+input,
+textarea {
+  font-size: 1.8rem;
+  line-height: 1.56;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.06rem;
+  /* color: var(--btn-color); */
+}
+
+a {
+  font-weight: 500;
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
+  /* color: (var(--btn-color)); */
+  text-decoration: inherit;
+}

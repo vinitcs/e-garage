@@ -1,0 +1,116 @@
+.container {
+     width: 100%;
+     min-height: 100vh;
+     /* height: 100%; */
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 2rem;
+     position: relative;
+     /* background-color: var(--modal-color); */
+
+     h1 {
+          font-size: 4rem;
+          color: var(--tint-color);
+
+          span {
+               color: var(--primary-color);
+          }
+     }
+
+     p {
+          font-size: 1.4rem;
+          letter-spacing: 0.1rem;
+     }
+
+     .loginBtn,
+     .logoutBtn,
+     .accountDeleteBtn {
+          font-family: "Open Sans", sans-serif;
+          font-size: 1.4rem;
+          letter-spacing: 2px;
+          text-decoration: none;
+          text-transform: uppercase;
+          color: var(--dark-color);
+          cursor: pointer;
+          border: 3px solid;
+          padding: 0.25em 0.5em;
+          box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+          position: relative;
+          user-select: none;
+          -webkit-user-select: none;
+          touch-action: manipulation;
+     }
+
+     .loginBtn:active {
+          box-shadow: 0px 0px 0px 0px;
+          top: 5px;
+          left: 5px;
+          color: var(--bg-color);
+          background-color: var(--primary-color);
+          border: 3px solid var(--dark-color);
+     }
+
+     .logoutBtn:active,
+     .accountDeleteBtn:active {
+          box-shadow: 0px 0px 0px 0px;
+          top: 5px;
+          left: 5px;
+          color: var(--bg-color);
+          background-color: var(--tint-color);
+          border: 3px solid var(--dark-color);
+     }
+
+     /* @media (min-width: 768px) {
+          .loginBtn {
+               padding: 0.25em 0.75em;
+          }
+     } */
+
+     .actionBtn {
+          display: flex;
+          flex-direction: row;
+          gap: 2rem;
+     }
+
+
+     .tableContainer {
+          border: 1px solid black;
+          border-collapse: collapse;
+          width: max-content;
+          text-align: center;
+          margin-top: 2rem;
+     }
+
+     .tableContainer tr th {
+          border: 1px solid black;
+          font-size: 1.6rem;
+          font-weight: 100;
+          font-family: "Open Sans", sans-serif;
+          padding: 0.4rem 3rem;
+          color: var(--bg-color);
+          background-color: var(--primary-color);
+     }
+
+     .tableContainer tr td {
+          border: 1px solid black;
+          font-size: 1.6rem;
+          padding: 0.4rem 3rem;
+     }
+
+     .updateBtn {
+          padding: 1rem;
+          border-radius: 0.4rem;
+          border: none;
+          background-color: var(--tint-color);
+          color: var(--bg-color);
+          font-family: monospace;
+          cursor: pointer;
+     }
+
+     .updateBtn:hover {
+          background-color: var(--primary-color);
+     }
+
+}
